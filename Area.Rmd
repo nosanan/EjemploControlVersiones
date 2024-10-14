@@ -1,0 +1,15 @@
+---
+title: "Ejemplo"
+output: html_document
+date: "2024-10-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+r <- 0.5
+area <- pi*r^2
+```
+
