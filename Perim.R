@@ -5,5 +5,5 @@ PerimetroCircunf <- function(r){
   return(2* 3.14159*r)
 }
 PerimetroRect <- function(x,y){
-  return(2*x+2*y)
+  return(2*(x+y))
 }
