@@ -24,6 +24,12 @@ areatriangulo <- function(L, h){
 ```{r}
 arearectangulo <- function(x,y){
   return(x*y)
+```
+
+
+```{r}
+areatrapecio <- function(b, B, H)
+  return((b+B)*H/2)
 }
 ```
 
