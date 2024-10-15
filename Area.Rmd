@@ -16,5 +16,10 @@ area <- pi*r^2
 x <- 0.5
 area <- x^2
 ```
+```{r}
+areatriangulo <- function(L, h){
+  return(L*h/2)
+}
+```
 
 
